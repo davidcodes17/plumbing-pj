@@ -10,7 +10,7 @@ const Testimonial = () => {
         py={8}
         fontFamily={"Anton"}
         color={"#000"}
-        fontSize={70}
+        fontSize={{ lg: 70, md: 50, sm: 30, base: 30 }}
       >
         Testimonials
       </Heading>
