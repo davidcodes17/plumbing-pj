@@ -27,11 +27,11 @@ const Footer = () => {
             Let's Handle Your Next Project
           </Heading>
           <Flex gap={5} py={5} flexWrap={"wrap"}>
-            <Facebook size={60} />
-            <Instagram size={60} />
-            <Whatsapp size={60} />
-            <Twitch size={60} />
-            <Sms size={60} />
+            <Facebook size={40} />
+            <Instagram size={40} />
+            <Whatsapp size={40} />
+            <Twitch size={40} />
+            <Sms size={40} />
           </Flex>
           <Heading
             fontFamily={"Anton"}
