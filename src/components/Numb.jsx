@@ -1,7 +1,7 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 
-const Numb = () => {
+const Numb = ({number,text}) => {
   return (
     <Box
       p={10}
@@ -13,9 +13,9 @@ const Numb = () => {
       className="div"
     >
       <Heading pt={5} fontFamily={"Anton"} fontSize={80}>
-        150
+        {number}
       </Heading>
-      <Text fontSize={20}>Air Conditioning Repairs and Install</Text>
+      <Text fontSize={20}>{text}</Text>
     </Box>
   );
 };

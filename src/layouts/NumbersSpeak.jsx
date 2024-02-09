@@ -17,7 +17,9 @@ const NumbersSpeak = () => {
         Numbers Speak
       </Heading>
       <Flex pt={10} justifyContent={"center"} gap={10} flexWrap={"wrap"}>
-       <Numb />
+       <Numb text={"Air Conditioning Repairs and Install"} number={"150"} />
+       <Numb text={"PLUMBING WORKS AND FIXES"} number={"100"} />
+       <Numb text={"Customizers are Satisfied with our Services"} number={"250"} />
        <Numb />
        <Numb />
       </Flex>
