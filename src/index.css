@@ -21,3 +21,11 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 } */
+.div {
+  transition: all 0.2s;
+}
+.div:hover {
+  background: #000;
+  transition: all 0.2s;
+  color: #fff;
+}

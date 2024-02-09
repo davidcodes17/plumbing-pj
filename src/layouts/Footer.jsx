@@ -24,7 +24,7 @@ const Footer = () => {
             fontFamily={"Anton"}
             fontSize={{ lg: 30, md: 30, sm: 30, base: 30 }}
           >
-            Let's Handle Your Next Project
+            Open Hours : Mon-Sat : 9am - 6pm
           </Heading>
           <Flex gap={5} py={5} flexWrap={"wrap"}>
             <Facebook size={40} />
@@ -37,7 +37,7 @@ const Footer = () => {
             fontFamily={"Anton"}
             fontSize={{ lg: 30, md: 30, sm: 30, base: 20 }}
           >
-            plumbingandair@gmail.com
+            info@allrooterplumbingnair.com
           </Heading>
         </Box>
       </Flex>
